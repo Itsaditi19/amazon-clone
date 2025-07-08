@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Reset default spacing and box model for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent horizontal scroll on small devices */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Make images fully responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Headings and paragraphs */
+h1, h2, h3, p {
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
