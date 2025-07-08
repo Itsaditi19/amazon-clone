@@ -5,7 +5,7 @@ import CartPage from './pages/cart';
 import ProductPage from './pages/product';
 import LoginPage from './pages/login';
 import HomePage from './pages/home';
-import Footer from './components/general/Footer'; // ✅ Footer import
+
 
 import './App.scss';
 
@@ -34,7 +34,7 @@ function App() {
         </Switch>
       </div>
 
-      <Footer /> {/* ✅ Footer placed after all page content */}
+     
     </Router>
   );
 }
